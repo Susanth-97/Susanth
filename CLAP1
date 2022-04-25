@@ -1,0 +1,18 @@
+#include <stdio.h>
+#include <string.h>
+#include <math.h>
+#include <stdlib.h>
+
+int main() {
+    float a,m,ft,in,cm;
+    scanf ("%f",&a);
+    m = a*1000;
+    ft = a*3280.84;
+    in = a*39370.1;
+    cm = a*100000;
+    printf ("%.2f m\n", m);
+    printf ("%.2f ft\n", ft);
+    printf ("%.2f in\n", in);
+    printf ("%.2f cm\n", cm);
+    return 0;
+}
